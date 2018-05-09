@@ -1,0 +1,24 @@
+{
+  "name": "fis3-preprocessor-babel-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l5oo00/fis3-preprocessor-babel-helper.git"
+  },
+  "keywords": [
+    "fis",
+    "babel",
+    "helper"
+  ],
+  "author": "l5oo00",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/l5oo00/fis3-preprocessor-babel-helper/issues"
+  },
+  "homepage": "https://github.com/l5oo00/fis3-preprocessor-babel-helper#readme"
+}
