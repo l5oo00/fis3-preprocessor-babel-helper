@@ -33,7 +33,8 @@ module.exports = function (content, file, options) {
     }
 
     if (count > 0) {
-        content = 'var babelHelpers = require(\'' + helperFileId + '\');\n' + content;
+        // 删除换行， 修复导致 babel 产出的 sourceMap 调试时错一行的问题
+        content = 'var babelHelpers = require(\'' + helperFileId + '\');' + content;
     }
     file.helperNameList = helperNameList;
 
